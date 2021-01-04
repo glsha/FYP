@@ -3,8 +3,11 @@
 Type: Android Mobile Application
 
 Language Used: Java, PHP
+
 IDE: Android Studio
+
 Database: Mysql
+
 API Used: Mapbox, Google Maps
 
 This project is based on Car Sharing from one place to the another.
