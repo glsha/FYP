@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CarTrek</string>
+
+    <string name="mapbox_access_token">
+        pk.eyJ1IjoiZ2xhZGlhdG9yOTk5OCIsImEiOiJja2FybjhscGUwMzY5MnlsMmRhdmNiOWM2In0.zgDxXTslY8jnSpggeKPsNg
+    </string>
+
+    <string name="user_location_permission_explanation">
+        This app needs location permissions to show its functionality.
+    </string>
+    <string name="user_location_permission_not_granted">
+        You didn\'t grant location permissions.
+    </string>
+
+</resources>

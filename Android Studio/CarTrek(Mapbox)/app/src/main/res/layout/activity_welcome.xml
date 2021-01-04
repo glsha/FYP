@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10sp">
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="Welcome, "/>
+
+    <Button
+        android:id="@+id/offer_ride"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="50sp"
+        android:layout_gravity="center_horizontal|center"
+        android:text="Offer a Ride"/>
+
+    <Button
+        android:id="@+id/request_ride"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="50sp"
+        android:layout_gravity="center_horizontal|center"
+        android:text="Request a Ride"/>
+
+    <Button
+        android:id="@+id/available_ride"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="300dp"
+        android:layout_margin="50sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center"
+        android:text="Available Ride"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/logout"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center"
+        android:text="Logout"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10sp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registration"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_margin="100sp"
+            android:textSize="30sp"/>
+        <EditText
+            android:id="@+id/ed_username"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center"
+            android:hint="Username"/>
+        <EditText
+            android:id="@+id/ed_email"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center"
+            android:hint="Email"/>
+        <EditText
+            android:id="@+id/ed_password"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center"
+            android:hint="Password"
+            android:inputType="textPassword"/>
+        <Button
+            android:onClick="register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25sp"
+            android:text="Register"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="75sp"
+            android:text="Login Here"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:onClick="login"
+            android:gravity="center_horizontal"/>
+    </LinearLayout>
+</ScrollView>
